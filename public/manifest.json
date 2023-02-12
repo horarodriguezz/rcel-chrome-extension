@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "RCEL - Descargar facturas electronicas",
+  "description": "Descarga todas las facturas electronicas que tengas en la vista junto con un resumen en excel que incluye todos los datos de las facturas.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "./dist/popup.html"
+  }
+}

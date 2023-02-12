@@ -1,0 +1,26 @@
+{
+  "name": "rcel-chrome-extension",
+  "version": "1.0.0",
+  "description": "Descarga todas las facturas electronicas que tengas en la vista junto con un resumen en excel que incluye todos los datos de las facturas.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.ts"
+  },
+  "author": "Rodriguez Horacio",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.10",
+    "@types/webpack": "^5.28.0",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
